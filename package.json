@@ -4,6 +4,7 @@
   "description": "THREEjs_vite boilerplate",
   "main": "module.js",
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,8 @@
   "dependencies": {
     "three": "^0.150.1",
     "vite": "^4.2.1"
+  },
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2"
   }
 }
